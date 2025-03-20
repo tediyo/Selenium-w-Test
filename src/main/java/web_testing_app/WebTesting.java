@@ -83,7 +83,7 @@ public class WebTesting {
         initSystemProperties();
 
         // Launch the driver and navigate to a URL
-        WebDriver driver = launchDriver("http://yourwebsite.com", "chrome");
+        WebDriver driver = launchDriver("http://www.facebook.com", "chrome");
 
         // Example: Click an element when it is clickable
         clickElementWhenClickable(By.id("elementId"));
